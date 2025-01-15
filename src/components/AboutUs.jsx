@@ -32,19 +32,19 @@ import CustomButton from '../common/CustomButton'
 const AboutUs = () => {
     return (
         <div className='container mx-auto lg:mb-[231px] mb-40 max-2xl:px-4'>
-            <div className="flex justify-center xl:justify-between flex-wrap items-center w-full gap-[83px]">
-                <div className="lg:w-[661px] w-full">
-                    <img className='2xl:max-w-[661px] xl:max-w-lg max-w-md max-h-[693px] w-full' src="/assets/images/webp/about-us-horse.webp" alt="horse-group-img" />
+            <div className="xl:flex-row justify-center xl:justify-between flex flex-col items-center w-full xl:gap-[83px] gap-10">
+                <div className="xl:w-[661px] w-full">
+                    <img className='max-w-[661px] xl:h-[760px] w-full mx-auto' src="/assets/images/webp/about-us-horse.webp" alt="horse-group-img" />
                 </div>
-                <div className="lg:w-[661px] w-full max-xl:mt-20 flex">
-                    <div className="max-w-[576px] w-full flex flex-col">
-                        <span className='relative max-w-max flex max-xl:mx-auto'>
-                            <Heading classStyle="xl:mb-6 lg:mb-5 mb-4" text="About Us" />
-                        </span>
-                        <Description classStyle="lg:mb-[10px] font-comic mb-2 lg:!max-w-none !w-full max-xl:!text-center" text="Tortor suscipit non habitant natoque elementum, lectus turpis. Maecenas viverra habitasse ut sit eleifend aenean. Egestas platea bibendum tempor non tempus egestas. Rhoncus sit est risus tellus lorem convallis. Amet pellentesque viverra euismod eget dignissim ullamcorper. In et ac amet, habitant erat fermentum eget aliquet lectus. Condimentum congue nibh nisl sed quis justo, senectus egestas. " />
-                        <Description classStyle='lg:mb-[53px] font-comic md:mb-9 mb-7 max-xl:!text-center' text="In in ut scelerisque quam purus, quam. Porttitor aenean elit blandit gravida potenti sed. Mauris." />
-                        <div className="border-linear-gradient max-w-max rounded-xl ml-2 max-xl:mx-auto">
-                            <CustomButton classStyle="uppercase md:-translate-x-2 -translate-x-1 md:-translate-y-2 -translate-y-1 !bg-white" text='mint now' />
+                <div className="xl:w-[576px] w-full max-xl:mt-20 flex xl:h-[650px] max-xl:justify-center">
+                    <div className="max-w-[576px] w-full flex flex-col xl:justify-end justify-center">
+                        <div className='relative max-w-max flex max-xl:mx-auto xl:mb-6 lg:mb-5 mb-4'>
+                            <Heading ClassStyle="max-lg:text-center" text="About Us" />
+                        </div>
+                        <Description ClassStyle="xl:max-w-[576px] w-full !max-xl:text-center !mb-[10px]" text="Tortor suscipit non habitant natoque elementum, lectus turpis. Maecenas viverra habitasse ut sit eleifend aenean. Egestas platea bibendum tempor non tempus egestas. Rhoncus sit est risus tellus lorem convallis. Amet pellentesque viverra euismod eget dignissim ullamcorper. In et ac amet, habitant erat fermentum eget aliquet lectus. Condimentum congue nibh nisl sed quis justo, senectus egestas. " />
+                        <Description ClassStyle='max-xl:!text-center' text="In in ut scelerisque quam purus, quam. Porttitor aenean elit blandit gravida potenti sed. Mauris." />
+                        <div className="border-linear-gradient max-w-max rounded-xl ml-2 max-xl:mx-auto lg:mt-[53px] md:mt-10 mt-8">
+                            <CustomButton ClassStyle="uppercase md:-translate-x-2 -translate-x-1 md:-translate-y-2 -translate-y-1 !bg-white" text='mint now' />
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/pinky-unicorn');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 body{
   font-family: 'Pinky Unicorn', sans-serif;
@@ -13,8 +14,9 @@ body{
 }
 
 .linear-gradient {
-  background: linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%);
-  -webkit-background-clip: text;
+    background: linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%);  
+    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
