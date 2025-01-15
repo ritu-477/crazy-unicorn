@@ -2,15 +2,8 @@
 
 body{
   font-family: 'Pinky Unicorn', sans-serif;
-<<<<<<< HEAD
 }
 
 .text-border {
   -webkit-text-stroke: 0.27px black;
-=======
-  background-image: url("../public/assets/images/webp/body-bg-image.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
->>>>>>> 93a3528ca3893d1239664056d9b8fd4015470e67
 }
