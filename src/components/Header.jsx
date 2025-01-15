@@ -1,7 +1,6 @@
 import React from 'react';
-import { NAV_DATA_LIST } from '../utils/helper';
+import { NAV_DATA_LIST ,NAV_SOCIAL_LIST} from '../utils/helper';
 import { useEffect, useState } from 'react';
-import CustomButton from '../common/CustomButton';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,18 +29,22 @@ const Header = () => {
   }, [isMenuOpen])
 
   return (
-    <div className="sm:pt-[14px] max-sm:py-10 flex items-center h-[65px] relative">
+    <div className="sm:pt-[14px] max-sm:pt-4 flex items-center lg:h-[88.87px] h-14 relative">
       <div className="container">
-        <div className="flex justify-between items-center sm:h-[65px]">
+        <div className="flex justify-between items-center lg:h-[88.87px] h-14">
           <a href="/">
-            <img className='lg:max-w-[85.36px] h-[88.87px] max-w-[60px] pointer-events-none' src="/assets/images/webp/nav-logo.webp" alt="nav-logo" />
+            <img className='lg:max-w-[85.36px] lg:h-[88.87px] h-14 max-w-[60px] pointer-events-none' src="/assets/images/webp/nav-logo.webp" alt="nav-logo" />
           </a>
           <div className='lg:block hidden'>
             <div className="flex gap-[30px] items-center">
               {NAV_DATA_LIST.map((obj, index) => (
-                <a onClick={toggleMenu}
+                <a
+                  onClick={toggleMenu}
                   key={index}
-                  className="font-normal text-border hover:transition-all hover:duration-700 text-custom-2xl leading-custom-2xl text-black"
+                  className="font-normal text-border text-custom-2xl leading-custom-2xl text-black after:rotate(-4.31deg) relative 
+             after:content-[''] after:absolute after:bg-black after:w-0 after:h-[3px] 
+             after:left-0 after:bottom-[-3px] after:transition-all after:duration-300 
+             hover:after:w-full"
                   href={obj.link}
                 >
                   {obj.data}
@@ -55,18 +58,18 @@ const Header = () => {
           >
             {isMenuOpen ? (
               <>
-                <span className="h-[3px] absolute top-3 w-full bg-white transform rotate-45 transition duration-300"></span>
-                <span className="h-[3px] absolute top-3 w-full bg-white transform -rotate-45 transition duration-300"></span>
+                <span className="h-[3px] absolute top-3 w-full bg-black transform rotate-45 transition duration-300"></span>
+                <span className="h-[3px] absolute top-3 w-full bg-black transform -rotate-45 transition duration-300"></span>
               </>
             ) : (
               <>
-                <span className="h-[3px] w-full bg-white"></span>
-                <span className="h-[3px] w-full bg-white"></span>
-                <span className="h-[3px] w-full bg-white"></span>
+                <span className="h-[3px] w-full bg-black"></span>
+                <span className="h-[3px] w-full bg-black"></span>
+                <span className="h-[3px] w-full bg-black"></span>
               </>
             )}
           </div>
-          <div className={`menuList ${isMenuOpen ? 'max-lg:left-0' : 'max-lg:left-[-100%]'} z-10 gap-8 max-lg:w-full max-lg:fixed max-lg:justify-center max-lg:top-0 max-lg:bg-black max-lg:flex-col max-lg:transition-all duration-300 flex items-center max-lg:min-h-screen`}>
+          <div className={`menuList ${isMenuOpen ? 'max-lg:left-0' : 'max-lg:left-[-100%]'} z-10 gap-8 max-lg:w-full max-lg:fixed max-lg:justify-center max-lg:top-0 max-lg:bg-white max-lg:flex-col max-lg:transition-all duration-300 flex items-center max-lg:min-h-screen`}>
             <div className='lg:hidden block'>
               <div className='flex-col flex gap-6 items-center'>
                 {NAV_DATA_LIST.map((obj, index) => (
@@ -79,7 +82,17 @@ const Header = () => {
                 ))}
               </div>
             </div>
-            <a onClick={toggleMenu} href="#home"><CustomButton classStyle={'!py-[9.2px] !px-[33.3px] bg-white hover:bg-black hover:text-white border-white border transition-all duration-500'} text={'Connect Wallet'} /></a>
+            <div className="flex gap-5 items-center">
+              {NAV_SOCIAL_LIST.map((obj, index) => (
+                <a
+                  key={index}
+                  className="hover:transition-all hover:duration-700 hover:scale-110 text-custom-2xl leading-custom-2x border border-black size-[42.08px] rounded-full flex justify-center items-center"
+                  href={obj.link}
+                >
+                  {obj.icon} 
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </div>
