@@ -9,39 +9,40 @@ const Faqs = () => {
     setOpenAccordion(openAccordion === index ? null : index);
   };
   return (
-    <div className='bg-pink-300 pt-[106px] pb-[133px]'>
+    <div className='bg-purple xl:pt-[106px] lg:py-24 md:py-16 sm:py-10 py-6 xl:pb-[133px]'>
       <div className='container'>
         <Heading text={'FAQs'} ClassStyle={'text-center'}/>
-        {
-          FREQUENTLY_ASK_QUESTIONS_LIST.map((item, index) => (
-            <div key={index} className="max-w-[1187px] mx-auto">
-              <div className={`mb-[35px] ${openAccordion === index
+        <div className='max-w-[1187px] mx-auto xl:pt-[88px] lg:pt-14 md:pt-10 pt-9'>
+          {FREQUENTLY_ASK_QUESTIONS_LIST.map((item, index) => (
+            <div key={index} className="">
+              <div className={`lg:mb-[35px] md:mb-7 sm:mb-5 mb-4 ${openAccordion === index
                 ? "faq-gradient-border"
                 : "border-white border-opacity-10"
                 }`}>
                 <button
                   onClick={() => toggleAccordion(index)}
-                  className={`font-normal text-custom-5xl leading-custom-7xl text-black flex justify-between w-full uppercase ${openAccordion === index ? "" : ""}`}
+                  className={`font-normal xl:text-custom-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl xl:leading-custom-7xl text-black flex justify-between items-center text-start w-full uppercase ${openAccordion === index ? "" : ""}`}
                 >
                   {item.question}
                   <img
                     src="/assets/images/svg/faq-arrow.svg"
                     alt={openAccordion === index ? "Collapse" : "Expand"}
-                    className={`w-6 h-[13.71px] transition-transform duration-500 transform ${openAccordion === index ? "rotate-180" : "rotate-0"
+                    className={`lg:w-6 md:w-5 sm:w-4 w-3 h-[13.71px] ml-3 transition-transform duration-500 transform ${openAccordion === index ? "rotate-180" : "rotate-0"
                       }`} />
                 </button>
                 <div
                   className={`transition-all duration-700 ease-in-out overflow-auto ${openAccordion === index
-                    ? "max-sm:h-[150px] opacity-100"
+                    ? "opacity-100"
                     : "max-h-0 opacity-0"
                     }`}>
                   <div className="transition-all duration-700 ease-in-out">
-                    {item.answer && <p className=" font-normal text-custom-2xl leading-custom-5xl text-black max-w-[831px] pt-[10px] pb-5 border-b border-b-black border-opacity-30">{item.answer}</p>}
+                    {item.answer && <p className=" font-normal xl:text-custom-2xl md:text-xl text-base xl:leading-custom-5xl text-black lg:max-w-[831px] max-w-[90%] pt-[10px] lg:pb-5 pb-4 border-b border-b-black border-opacity-30">{item.answer}</p>}
                   </div>
                 </div>
               </div>
             </div>
           ))}
+       </div>
       </div>
     </div>
   )
