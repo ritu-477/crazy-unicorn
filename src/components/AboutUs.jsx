@@ -31,16 +31,15 @@ import CustomButton from '../common/CustomButton'
 
 const AboutUs = () => {
     return (
-        <div className='max-w-[1320px] mx-auto lg:mb-[231px] mb-40 max-2xl:px-4'>
-            <div className="flex justify-center xl:justify-between flex-wrap xl:items-end items-center">
-                <div className="xl:w-6/12 w-full justify-center flex">
+        <div className='container mx-auto lg:mb-[231px] mb-40 max-2xl:px-4'>
+            <div className="flex justify-center xl:justify-between flex-wrap items-center w-full gap-[83px]">
+                <div className="lg:w-[661px] w-full">
                     <img className='2xl:max-w-[661px] xl:max-w-lg max-w-md max-h-[693px] w-full' src="/assets/images/webp/about-us-horse.webp" alt="horse-group-img" />
                 </div>
-                <div className="xl:w-6/12 w-full max-xl:mt-20 flex xl:justify-end justify-center lg:items-end">
-                    <div className="max-w-[576px] w-full">
+                <div className="lg:w-[661px] w-full max-xl:mt-20 flex">
+                    <div className="max-w-[576px] w-full flex flex-col">
                         <span className='relative max-w-max flex max-xl:mx-auto'>
                             <Heading classStyle="xl:mb-6 lg:mb-5 mb-4" text="About Us" />
-                            {/* <img className='max-w-[118px] w-full absolute -right-12 -top-14' src={SmallHorseImg} alt="small-horse-img" /> */}
                         </span>
                         <Description classStyle="lg:mb-[10px] font-comic mb-2 lg:!max-w-none !w-full max-xl:!text-center" text="Tortor suscipit non habitant natoque elementum, lectus turpis. Maecenas viverra habitasse ut sit eleifend aenean. Egestas platea bibendum tempor non tempus egestas. Rhoncus sit est risus tellus lorem convallis. Amet pellentesque viverra euismod eget dignissim ullamcorper. In et ac amet, habitant erat fermentum eget aliquet lectus. Condimentum congue nibh nisl sed quis justo, senectus egestas. " />
                         <Description classStyle='lg:mb-[53px] font-comic md:mb-9 mb-7 max-xl:!text-center' text="In in ut scelerisque quam purus, quam. Porttitor aenean elit blandit gravida potenti sed. Mauris." />
