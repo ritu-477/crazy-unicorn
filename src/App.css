@@ -3,3 +3,7 @@
 body{
   font-family: 'Pinky Unicorn', sans-serif;
 }
+
+.text-border {
+  -webkit-text-stroke: 0.27px black;
+}
