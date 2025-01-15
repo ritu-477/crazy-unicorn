@@ -13,6 +13,7 @@ module.exports = {
           lg: "1024px",
           xl: "1368px",
         },
+      },
 
         fontSize: {
           'custom-xl': "18.93px",
@@ -39,8 +40,12 @@ module.exports = {
         },
         fontFamily: {
           'comic-neue': "'comic neue', sans-serif",
-        }
+        },
+      
+      backgroundImage: {
+        'hero': "url('/public/assets/images/webp/hero-bg.webp')",
       },
+     
 
     },
   },
