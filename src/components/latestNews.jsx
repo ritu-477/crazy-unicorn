@@ -1,9 +1,9 @@
 import React from 'react'
 
-const latestNews = () => {
+const LatestNews = () => {
   return (
-    <div>latestNews</div>
+      <div>LatestNews</div>
   )
 }
 
-export default latestNews
+export default LatestNews
