@@ -62,7 +62,7 @@ const LatestNews = () => {
                 className="outline-none font-comic-neue text-black pl-[9px] w-full opacity-70 placeholder:text-black placeholder:opacity-70"
               />
             </div>
-            <CustomButton classStyle={'px-[20px] py-[10px]'} text={'Subscribe'} />
+            <CustomButton classStyle={'!px-[29px] !py-[10px] !text-custom-3xl !leading-custom-3xl'} text={'Subscribe'} />
           </form>
         </div>
       </div>
