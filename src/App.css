@@ -18,3 +18,23 @@ body{
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+.swal-button--danger:focus {
+  box-shadow: none !important;
+}
+.rainbow-border {
+  border: 6px solid transparent;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+@media(min-width:430px){
+.mobile-rainbow{
+height: 510px !important;
+}
+}
+@media(min-width:530px) {
+  .mobile-rainbow {
+   height: 470px !important;
+  }
+}
