@@ -38,7 +38,7 @@ const Faqs = () => {
                     : "max-h-0 opacity-0"
                     }`}>
                   <div className="transition-all duration-700 ease-in-out">
-                    {item.answer && <p className=" font-normal xl:text-custom-2xl md:text-xl text-base xl:leading-custom-5xl text-black lg:max-w-[831px] max-w-[90%] pt-[10px] lg:pb-5 pb-4 border-b border-b-black border-opacity-30">{item.answer}</p>}
+                    {item.answer && <p className="font-comic-neue font-normal xl:text-custom-2xl md:text-xl text-base xl:leading-custom-5xl text-black lg:max-w-[831px] max-w-[90%] pt-[10px] lg:pb-5 pb-4 border-b border-b-black border-opacity-30">{item.answer}</p>}
                   </div>
                 </div>
               </div>

@@ -11,7 +11,7 @@ module.exports = {
           sm: "640px",
           md: "768px",
           lg: "1024px",
-          xl: "1368px",
+          xl: "1280px",
         },
       },
 
@@ -48,7 +48,6 @@ module.exports = {
         },
       
       backgroundImage: {
-        // 'hero': "url('/public/assets/images/webp/hero-bg.webp')",
         'roadmap': "url('/public/assets/images/png/roadmap-image.png')",
       },
      

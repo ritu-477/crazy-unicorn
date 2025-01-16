@@ -57,7 +57,7 @@ const LatestNews = () => {
               required='required'
               value={email}
               onChange={handleChange}
-              className="outline-none text-black !lowercase pl-[9px] w-full opacity-70 placeholder:text-black placeholder:opacity-70"
+              className="outline-none font-comic-neue text-black !lowercase pl-[9px] w-full opacity-70 placeholder:text-black placeholder:opacity-70"
             />
         </div>
           <button className=''>
