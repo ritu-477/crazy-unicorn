@@ -71,7 +71,7 @@ const Header = () => {
               </>
             )}
           </div>
-          <div className={`menuList ${isMenuOpen ? 'max-lg:left-0' : 'max-lg:left-[-100%]'} z-40 gap-8 max-lg:w-full max-lg:fixed max-lg:justify-center max-lg:top-0 max-lg:bg-white max-lg:flex-col max-lg:transition-all duration-300 flex items-center max-lg:min-h-screen`}>
+          <div className={`menuList ${isMenuOpen ? 'max-lg:left-0' : 'max-lg:left-[-100%]'} z-40 gap-8 max-lg:w-full max-lg:fixed max-lg:justify-center max-lg:top-0 max-lg:bg-white max-lg:flex-col max-lg:transition-all duration-300 flex items-center max-lg:min-h-screen lg:hidden`}>
             <div className='lg:hidden block'>
               <div className='flex-col flex gap-6 items-center'>
                 {NAV_DATA_LIST.map((obj, index) => (
