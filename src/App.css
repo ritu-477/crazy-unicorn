@@ -12,8 +12,12 @@ body {
   scroll-behavior: smooth !important;
 }
 
-.border-linear-gradient {
-  background: linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%);
+.main-heading {
+  -webkit-text-stroke: 1px black;
+}
+
+.text-border {
+  -webkit-text-stroke: 0.27px black;
 }
 
 .text-gradient {
@@ -25,13 +29,6 @@ body {
 
 .border-linear-gradient {
   background: linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%);
-}
-
-.text-gradient {
-  background: linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .linear-border {

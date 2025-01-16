@@ -41,7 +41,7 @@ const Header = () => {
                 <a
                   onClick={toggleMenu}
                   key={index}
-                  className="font-normal text-border text-custom-2xl leading-custom-2xl text-black relative group"
+                  className="font-normal text-border text-custom-2xl leading-custom-2xl text-black relative group text-border"
                   href={obj.link}
                 >
                   {obj.data}
@@ -78,7 +78,7 @@ const Header = () => {
                   <a
                     onClick={toggleMenu}
                     key={index}
-                    className="font-normal text-border text-custom-2xl leading-custom-2xl text-black relative group"
+                    className="font-normal text-border text-custom-2xl leading-custom-2xl text-black relative group text-border"
                     href={obj.link}
                   >
                     {obj.data}
@@ -89,10 +89,22 @@ const Header = () => {
                     />
                   </a>
                 ))}
+                <div className="gap-5 items-center flex">
+                  {NAV_SOCIAL_LIST.map((obj, index) => (
+                    <a
+                      key={index}
+                      className="hover:transition-all hover:duration-700 hover:scale-110 text-custom-2xl leading-custom-2x border border-black size-[42.08px] rounded-full flex justify-center items-center"
+                      href={obj.link}
+                      target='_blank'
+                    >
+                      {obj.icon}
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
-          <div className="flex gap-5 items-center">
+          <div className="gap-5 items-center lg:flex hidden">
             {NAV_SOCIAL_LIST.map((obj, index) => (
               <a
                 key={index}

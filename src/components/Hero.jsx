@@ -1,40 +1,19 @@
-// import React from 'react'
-// import Header from './Header'
-
-// const Hero = () => {
-//   return (
-//       <div className='bg-hero bg-cover bg-center bg-no-repeat relative 2xl:h-[1085px]'>
-//           <Header />
-//           <div className='absolute left-0 top-[23%]'><img className='w-full 2xl:max-w-[342px] xl:max-w-[300px] lg:max-w-[210px] md:max-w-[160px] max-w-[90px]' src="/assets/images/webp/hero-left-star.webp" alt="left-start" /></div>
-//           <div className='absolute right-0 top-[48%]'><img className='w-full 2xl:max-w-[480px] xl:max-w-[260px] lg:max-w-[160px] md:max-w-[131px] sm:max-w-[100px] max-w-[65px]' src="/assets/images/webp/hero-right-star.webp" alt="left-start" /></div>
-//           <div className='container'>
-//               <div className='mx-auto max-w-[1264.24px] xl:pt-[165.13px] lg:pt-36 md:pt-24 sm:pt-16 pt-12'>
-//                   <img className='mx-auto max-w-[1264.24px] w-full' src="/assets/images/webp/hero-horse-image.webp" alt="her0-image" />
-//               </div>
-//           </div>
-//       </div>
-//   )
-// }
-
-// export default Hero
-
-
 import React from 'react'
 import Header from './Header'
 
 const Hero = () => {
     return (
-        <div className="bg-hero bg-cover bg-center bg-no-repeat relative overflow-hidden">
+        <div className="bg-hero bg-cover bg-center bg-no-repeat relative overflow-hidden" id='home'>
                 <Header />
             <img
                 src="/assets/images/webp/hero-left-star.webp"
                 alt="starImg"
-                className="absolute left-0 sm:w-[200px] md:w-[265px] w-[90px] star-animation top-[100px] max-md:top-20 pointer-events-none"
+                className="absolute left-0 sm:w-[200px] xl:w-[350px] md:w-[265px] w-[90px] star-animation top-[190px] max-md:top-20 pointer-events-none"
             />
             <img
                 src="/assets/images/webp/hero-right-star.webp"
                 alt="starImg"
-                className="absolute right-0 w-[200px] sm:w-[250px] md:w-[390px] bottom-0 z-30 star-animation max-sm:hidden pointer-events-none"
+                className="absolute right-0 w-[200px] sm:w-[250px] md:w-[290px] xl:w-[390px] bottom-0 z-30 star-animation max-sm:hidden pointer-events-none"
             />
             <div className="relative pt-[165px] max-xlg:pt-[120px] max-lg:pt-20 max-md:pt-10">
                 <img
@@ -51,12 +30,12 @@ const Hero = () => {
                     <img
                         src="/assets/images/png/crazy-unicorn-hero-img.png"
                         alt="hero-img"
-                        className="w-full sm:w-[90%] md:max-w-[1130px]  max-xlg:max-w-none relative pointer-events-none"
+                        className="w-full max-w-[1264px] mx-auto relative pointer-events-none"
                     />
                     <img
-                        src="/assets/images/png/hero-uniconrn-img.png"
+                        src="/assets/images/png/hero-unicorn-img.png"
                         alt="horse-img"
-                        className="absolute w-full max-w-[600px] max-md:max-w-[400px] max-lg:max-w-[450px] pointer-events-none max-sm:h-[101px] max-customxl:h-[258px] max-xlg:h-[230px] max-lg:h-[200px] max-md:h-[170px] max-sm:max-w-[200px] z-30 h-[288px] bottom-[14%] max-md:bottom-[16%]
+                        className="absolute w-full max-w-[600px] max-md:max-w-[400px] max-lg:max-w-[450px] pointer-events-none max-sm:h-[101px] xl:h-[258px] max-xlg:h-[230px] max-lg:h-[200px] max-md:h-[170px] max-sm:max-w-[200px] z-30 h-[288px] bottom-[14%] max-md:bottom-[16%]
 "
                     />
                     <img

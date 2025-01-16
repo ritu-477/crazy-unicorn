@@ -3,13 +3,13 @@ import Heading from '../common/Heading'
 
 const Roadmap = () => {
   return (
-    <div className='relative xl:pt-[115px] lg:pb-[66px] lg:pt-24 md:py-16 sm:py-10 py-6'>
+    <div className='relative xl:pt-[115px] lg:pb-[66px] lg:pt-24 md:py-16 sm:py-10 pt-12 pb-6' id='roadmap'>
       <img className='absolute top-[117px] lg:block hidden right-0' src="/assets/images/png/about-us-right-ellipse.png" alt="right-ellipse" />
       <img className='absolute left-0 top-[-20%] 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
       <img className='absolute left-0 bottom-0 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
       <div className='container'>
         <div className='relative max-w-max flex items-center text-center mx-auto'>
-          <Heading text={'RoadMap'} ClassStyle={'text-center pb-[117px]'} />
+          <Heading text={'RoadMap'} ClassStyle={'text-center xl:pb-[117px] lg:pb-80 md:pb-12 pb-10'} />
    </div>
         <div className='relative flex'>
           <img src="/assets/images/png/roadmap-image.png" alt="roadmap" className='2xl:max-w-[755px] xl:max-w-[570px] lg:max-w-[450px] md:max-w-[320px] max-w-[290px] w-full mx-auto sm:block hidden' />
@@ -43,7 +43,7 @@ const Roadmap = () => {
               <p className='font-normal lg:text-custom-5xl lg:leading-custom-7xl md:text-3xl sm:text-2xl text-base md:pb-4 pb-2 text-black'>Phase 3</p>
               <p className='font-comic-neue font-normal lg:text-custom-xl md:text-sm text-xs sm:leading-5 md:leading-6 lg:leading-custom-4xl sm:max-w-[374px]'>Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu.</p>
             </div>
-            <div className='sm:max-w-[451px] 2xl:w-1/2 xl:w-[31%] lg:w-[50%] md:w-[37%] sm:w-[36%] w-full sm:absolute sm:right-0 xl:top-[45%] sm:top-[47%] top-[55%] lg:pl-24 xl:pl-0 max-sm:pl-12 max-sm:pb-6 timeline-content'>
+            <div className='sm:max-w-[451px] 2xl:w-1/2 xl:w-[31%] lg:w-[50%] md:w-[37%] sm:w-[36%] w-full sm:absolute sm:right-0 xl:top-[45%] sm:top-[47%] top-[55%] lg:pl-24 xl:pl-12 max-sm:pl-12 max-sm:pb-6 timeline-content'>
               <p className='font-normal lg:text-custom-5xl lg:leading-custom-7xl md:text-3xl sm:text-2xl text-base md:text-black pb-2'>Phase 4</p>
               <p className='font-comic-neue font-normal lg:text-custom-xl md:text-sm text-xs sm:leading-5 md:leading-6 lg:leading-custom-4xl sm:max-w-[420px]'>Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu.</p>
             </div>
