@@ -3,6 +3,7 @@ import Heading from '../common/Heading'
 import Description from '../common/Description'
 import Swal from 'sweetalert2'
 import emailjs from '@emailjs/browser';
+import CustomButton from '../common/CustomButton';
 
 const LatestNews = () => {
   const [email, setEmail] = useState("");
@@ -46,7 +47,7 @@ const LatestNews = () => {
         <Heading text={'Sign up for the latest news'} ClassStyle={'text-center'} />
       </div>
       <Description text={'Convallis et vel cras odio mi, volutpat sed ultrices. Sed amet sed aenean egestas ut sit.'} ClassStyle={'max-w-[659px] text-center mx-auto pb-[33px]'} />
-      <div className='text-center mx-auto bg-gradient-to-tr from-pink to-purple p-[1px] max-w-[521px] rounded-[10px] w-full'>
+      <div className='text-center mx-auto bg-gradient-to-tr from-pink to-purple p-[0.5px] max-w-[521px] rounded-[10px] w-full'>
         <form onSubmit={handleSubmit} className='flex bg-white p-[8px_9.33px_8px_19px] justify-between max-w-[521px] rounded-[10px] w-full'>
           <div className='flex items-center w-full pr-2'>
             <img src="/assets/images/svg/email-box.svg" alt="email-box" />
@@ -59,10 +60,8 @@ const LatestNews = () => {
               onChange={handleChange}
               className="outline-none font-comic-neue text-black !lowercase pl-[9px] w-full opacity-70 placeholder:text-black placeholder:opacity-70"
             />
-        </div>
-          <button className=''>
-            Subscribe
-          </button>
+          </div>
+          <CustomButton classStyle={'px-[20px] py-[10px]'} text={'Subscribe'} />
         </form>
       </div>
       </div>

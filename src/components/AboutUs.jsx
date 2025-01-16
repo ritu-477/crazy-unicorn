@@ -5,7 +5,7 @@ import CustomButton from '../common/CustomButton'
 
 const AboutUs = () => {
     return (
-        <div className='xl:pt-[106px] lg:pt-20 md:pt-16 py-6 relative'>
+        <div className='xl:pt-[70px] lg:pt-20 xl:pb-[115px] lg:pb-24 md:py-16 py-6 relative'>
             <img className='absolute top-[-160px] lg:block hidden right-0' src="/assets/images/png/about-us-right-ellipse.png" alt="right-ellipse" />
             <div className='container max-w-[1360px] mx-auto'>
                 <div className="xl:flex-row justify-center xl:justify-between flex flex-col items-center w-full xl:gap-[83px] gap-10">

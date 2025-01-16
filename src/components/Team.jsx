@@ -22,7 +22,8 @@ import { TEAM_DATA_LIST } from '../utils/helper'
 
 const Team = () => {
   return (
-    <div className='pt-10 pb-[73.5px]'>
+    <div className='xl:pt-[100px] pb-[73.5px] pt-10 relative'>
+      <img className='absolute top-[-160px] lg:block hidden right-0' src="/assets/images/png/about-us-right-ellipse.png" alt="right-ellipse" />
       <div className='max-w-[1360px] mx-auto container'>
         <div className='relative max-w-max flex justify-center items-center mx-auto'>
               <Heading ClassStyle="text-center" text="Team" />

@@ -9,7 +9,9 @@ const Faqs = () => {
     setOpenAccordion(openAccordion === index ? null : index);
   };
   return (
-    <div className='xl:pt-[106px] lg:py-24 md:py-16 sm:py-10 py-6 xl:pb-[133px]'>
+    <div className='xl:pt-[107px] lg:py-24 md:py-16 sm:py-10 py-6 xl:pb-[133px] relative'>
+      <img className='absolute left-0 top-[-20%] 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
+      <img className='absolute top-[32%] lg:block hidden right-0' src="/assets/images/png/about-us-right-ellipse.png" alt="right-ellipse" />
       <div className='container'>
         <div className='relative max-w-max flex items-center text-center mx-auto'>
           <Heading text={'FAQs'} ClassStyle={'text-center'} />

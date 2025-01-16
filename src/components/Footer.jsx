@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='relative'>
             <img className='absolute right-0 top-0 xl:max-w-[550px] w-full md:max-w-[300px] max-w-[130px]' src="/assets/images/png/footer-rainbow.png" alt="rainbow-image" />
-            <img className='absolute left-0 top-0 xl:max-w-[600px] w-full max-w-[150px] sm:max-w-[250px] lg:max-w-[300px] -z-10' src="/assets/images/png/footer-ellipse.png" alt="footer-ellipse" />
+            <img className='absolute left-0 bottom-0 xl:max-w-[600px]  max-w-[150px] sm:max-w-[250px] lg:max-w-[300px] w-full -z-10' src="/assets/images/png/footer-ellipse.png" alt="footer-ellipse" />
             <div className='container'>
                 <div className='xl:pt-[287px] lg:pt-56 md:pt-40 sm:pt-32 pt-12 mx-auto flex justify-center items-center'>
                     <a href='/'>

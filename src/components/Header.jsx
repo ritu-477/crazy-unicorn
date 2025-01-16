@@ -75,32 +75,34 @@ const Header = () => {
             <div className='lg:hidden block'>
               <div className='flex-col flex gap-6 items-center'>
                 {NAV_DATA_LIST.map((obj, index) => (
-                  <a onClick={toggleMenu}
+                  <a
+                    onClick={toggleMenu}
                     key={index}
-                    className="font-normal hover:transition-all hover:duration-500 text-custom-2xl leading-custom-2xl text-black"
-                    href={obj.link}>
+                    className="font-normal text-border text-custom-2xl leading-custom-2xl text-black relative group"
+                    href={obj.link}
+                  >
                     {obj.data}
+                    <img
+                      src="/assets/images/svg/underline-nav.svg"
+                      alt="underline"
+                      className="absolute left-0 bottom-[-7px] h-[9.94px] w-full opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                    />
                   </a>
                 ))}
               </div>
             </div>
-            <div className="flex gap-5 items-center">
-              {NAV_SOCIAL_LIST.map((obj, index) => (
-                <a
-                  onClick={toggleMenu}
-                  key={index}
-                  className="font-normal text-border text-custom-2xl leading-custom-2xl text-black relative group"
-                  href={obj.link}
-                >
-                  {obj.data}
-                  <img
-                    src="/assets/images/svg/underline-nav.svg"
-                    alt="underline"
-                    className="absolute left-0 bottom-[-7px] h-[9.94px] w-full opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-                  />
-                </a>
-              ))}
-            </div>
+          </div>
+          <div className="flex gap-5 items-center">
+            {NAV_SOCIAL_LIST.map((obj, index) => (
+              <a
+                key={index}
+                className="hover:transition-all hover:duration-700 hover:scale-110 text-custom-2xl leading-custom-2x border border-black size-[42.08px] rounded-full flex justify-center items-center"
+                href={obj.link}
+                target='_blank'
+              >
+                {obj.icon}
+              </a>
+            ))}
           </div>
         </div>
       </div>
