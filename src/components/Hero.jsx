@@ -3,7 +3,7 @@ import Header from './Header'
 
 const Hero = () => {
     return (
-        <div className="bg-hero bg-cover bg-center bg-no-repeat relative overflow-hidden" id='home'>
+        <div className="bg-hero bg-cover bg-center bg-no-repeat relative overflow-hidden max-w-[1920px] mx-auto" id='home'>
                 <Header />
             <img
                 src="/assets/images/webp/hero-left-star.webp"
@@ -32,7 +32,7 @@ const Hero = () => {
                         alt="hero-img"
                         className="w-full max-w-[1264px] mx-auto relative pointer-events-none"
                     />
-                    <img
+                    <img data-aos="zoom-in"
                         src="/assets/images/png/hero-unicorn-img.png"
                         alt="horse-img"
                         className="absolute w-full max-w-[600px] max-md:max-w-[400px] max-lg:max-w-[450px] pointer-events-none max-sm:h-[101px] xl:h-[258px] max-xlg:h-[230px] max-lg:h-[200px] max-md:h-[170px] max-sm:max-w-[200px] z-30 h-[288px] bottom-[14%] max-md:bottom-[16%]

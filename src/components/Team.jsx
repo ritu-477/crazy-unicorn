@@ -22,7 +22,7 @@ import { TEAM_DATA_LIST } from '../utils/helper'
 
 const Team = () => {
   return (
-    <div className='xl:pt-[100px] pb-[73.5px] pt-10 relative' id='team'>
+    <div data-aos="zoom-out" className='xl:pt-[100px] pb-[73.5px] pt-10 relative' id='team'>
       <img className='absolute top-[-160px] lg:block hidden right-0' src="/assets/images/png/about-us-right-ellipse.png" alt="right-ellipse" />
       <div className='max-w-[1360px] mx-auto container'>
         <div className='relative max-w-max flex justify-center items-center mx-auto'>
@@ -31,7 +31,7 @@ const Team = () => {
         <div className='flex gap-[23.64px] max-xl:flex-wrap justify-center items-center pt-[190px] max-lg:pt-20 max-xl:gap-10'>
           {TEAM_DATA_LIST.map((obj, i) => (
             <div
-              className='2xl:max-w-[424px] max-w-[400px] rounded-[25px] group transition-all duration-500 text-center bg-white/80  backdrop-blur-[164.191px] linear-border group hover:scale-y-110 cursor-pointer origin-bottom w-full'
+              className='2xl:max-w-[424px] max-w-[400px] rounded-[25px] group transition-all duration-500 text-center bg-white/80  backdrop-blur-[164.191px] linear-border group cursor-pointer origin-bottom w-full'
               key={i}
             >
               <div className='justify-center items-center flex flex-col rounded-[25px]'>

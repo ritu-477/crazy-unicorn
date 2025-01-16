@@ -42,13 +42,13 @@ const LatestNews = () => {
     );
   };
   return (
-    <div className='xl:pt-[132px] lg:pt-24 md:pt-20 pt-12 xl:pb-[143px] lg:pb-32 md:pb-24 sm:pt-16 pb-12'>
+    <div className='xl:pt-[132px] lg:pt-24 md:pt-20 pt-12 xl:pb-[143px] lg:pb-32 md:pb-24 sm:pt-16 pb-12 max-w-[1920px] mx-auto'>
       <div className='container'>
-        <div className='relative max-w-max flex items-center text-center mx-auto'>
+        <div data-aos="fade-right" className='relative max-w-max flex items-center text-center mx-auto'>
           <Heading text={'Sign up for the latest news'} ClassStyle={'text-center'} />
         </div>
-        <Description text={'Convallis et vel cras odio mi, volutpat sed ultrices. Sed amet sed aenean egestas ut sit.'} ClassStyle={'max-w-[659px] text-center mx-auto pb-[33px]'} />
-        <div className='text-center mx-auto bg-gradient-to-tr from-pink to-purple p-[0.5px] max-w-[521px] rounded-[10px] w-full'>
+        <Description data-aos="fade-left" text={'Convallis et vel cras odio mi, volutpat sed ultrices. Sed amet sed aenean egestas ut sit.'} ClassStyle={'max-w-[659px] text-center mx-auto pb-[33px]'} />
+        <div data-aos="zoom-in" className='text-center mx-auto bg-gradient-to-tr from-pink to-purple p-[0.5px] max-w-[521px] rounded-[10px] w-full'>
           <form onSubmit={handleSubmit} className='flex bg-white p-[8px_9.33px_8px_19px] justify-between max-w-[521px] rounded-[10px] w-full'>
             <div className='flex items-center w-full pr-2'>
               <img src="/assets/images/svg/email-box.svg" alt="email-box" />
