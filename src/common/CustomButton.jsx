@@ -2,15 +2,18 @@ import React from 'react';
 
 const CustomButton = ({ text, classStyle }) => {
     return (
-        <div className='border-linear-gradient max-w-max rounded-xl relative'>
-            <button
-                className={`${classStyle} text-pink font-normal text-xl bg-white border-2 lg:text-custom-4xl lg:leading-custom-6xl text-custom-3xl leading-8 border-black rounded-lg px-12 py-[17px] shadow-[5px_5px_0px_#d000d0] hover:scale-110 transition-transform`}
-            >
-                {text}
-            </button>
-       </div>
+        <div className='bg-gradient-to-r from-pink to-purple max-w-[233px] rounded-xl pb-1 pr-1 transition-transform duration-500 ease-in-out hover:scale-105'>
+            <div className='bg-white rounded-xl border border-black -pl-1 -pt-1'>
+                <button
+                    className={`${classStyle} font-normal text-custom-3xl leading-8 sm:text-custom-4xl sm:leading-custom-6xl whitespace-nowrap text-gradient bg-white rounded-xl`}
+                >
+                    {text}
+                </button>
+            </div>
+        </div>
     );
 };
 
-export default CustomButton; 
+export default CustomButton;
+
 

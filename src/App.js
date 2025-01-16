@@ -1,6 +1,7 @@
 import './App.css';
 import AboutUs from './components/AboutUs';
 import Faqs from './components/Faqs';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import LatestNews from './components/latestNews';
 import OurStory from './components/OurStory';
@@ -16,8 +17,8 @@ function App() {
       <Roadmap />
       <Team />
       <Faqs />
-      <LatestNews/>
-      <AboutUs/>
+      <LatestNews />
+      <Footer/>
     </>
   );
 }
