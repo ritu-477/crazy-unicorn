@@ -4,9 +4,9 @@ import Heading from '../common/Heading'
 const Roadmap = () => {
   return (
     <div className='relative xl:pt-[115px] lg:pb-[66px] lg:pt-24 md:py-16 sm:py-10 pt-12 pb-6' id='roadmap'>
-      <img className='absolute top-[117px] lg:block hidden right-0' src="/assets/images/png/about-us-right-ellipse.png" alt="right-ellipse" />
-      <img className='absolute left-0 top-[-20%] 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
-      <img className='absolute left-0 bottom-0 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
+      <img className='absolute top-[117px] lg:block hidden right-0 pointer-events-none' src="/assets/images/png/about-us-right-ellipse.png" alt="right-ellipse" />
+      <img className='absolute left-0 top-[-20%] 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full pointer-events-none' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
+      <img className='absolute left-0 bottom-0 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full pointer-events-none' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
       <div className='container'>
         <div className='relative max-w-max flex items-center text-center mx-auto'>
           <Heading text={'RoadMap'} ClassStyle={'text-center xl:pb-[117px] lg:pb-80 md:pb-12 pb-10'} />
@@ -15,13 +15,13 @@ const Roadmap = () => {
           <img src="/assets/images/png/roadmap-image.png" alt="roadmap" className='2xl:max-w-[755px] xl:max-w-[570px] lg:max-w-[450px] md:max-w-[320px] max-w-[290px] w-full mx-auto sm:block hidden' />
           <div className='flex gap-1 w-9 h-[585px] left-1 relative sm:hidden mobile-rainbow'>
             <div className='absolute top-4 w-16'>
-              <img src="/assets/images/png/musical-ellipse.png" alt="music" className='max-w-36 w-full' />
+              <img src="/assets/images/png/musical-ellipse.png" alt="music" className='max-w-36 w-full pointer-events-none' />
             </div>
             <div className='absolute top-[35%] w-16'>
-              <img src="/assets/images/png/musical-ellipse.png" alt="music" className='max-w-36 w-full' />
+              <img src="/assets/images/png/musical-ellipse.png" alt="music" className='max-w-36 w-full pointer-events-none' />
             </div>
             <div className='absolute bottom-5 w-16'>
-              <img src="/assets/images/png/musical-ellipse.png" alt="music" className='max-w-36 w-full' />
+              <img src="/assets/images/png/musical-ellipse.png" alt="music" className='max-w-36 w-full pointer-events-none' />
             </div>
             <div className='border-4 border-red w-1 h-full '></div>
             <div className='border-4 border-dark-yellow w-1 h-full '></div>
