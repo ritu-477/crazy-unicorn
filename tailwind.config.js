@@ -37,6 +37,11 @@ module.exports = {
         colors: {
           'purple': "#b62aff",
           'pink': "#ff0df2",
+          'red': "#eb6f41",
+          'dark-yellow': "#ffce41",
+          'yellow': "#faf289",
+          'green': "#a2d068",
+          'sky-blue': "#a3dce6",
         },
         fontFamily: {
           'comic-neue': "'comic neue', sans-serif",
@@ -44,6 +49,7 @@ module.exports = {
       
       backgroundImage: {
         // 'hero': "url('/public/assets/images/webp/hero-bg.webp')",
+        'roadmap': "url('/public/assets/images/png/roadmap-image.png')",
       },
      
 

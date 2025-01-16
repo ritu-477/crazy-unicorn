@@ -11,7 +11,9 @@ const Faqs = () => {
   return (
     <div className='xl:pt-[106px] lg:py-24 md:py-16 sm:py-10 py-6 xl:pb-[133px]'>
       <div className='container'>
-        <Heading text={'FAQs'} ClassStyle={'text-center'}/>
+        <div className='relative max-w-max flex items-center text-center mx-auto'>
+          <Heading text={'FAQs'} ClassStyle={'text-center'} />
+        </div>
         <div className='max-w-[1187px] mx-auto xl:pt-[88px] lg:pt-14 md:pt-10 pt-9'>
           {FREQUENTLY_ASK_QUESTIONS_LIST.map((item, index) => (
             <div key={index} className="">
