@@ -3,7 +3,7 @@ import Heading from '../common/Heading'
 
 const Roadmap = () => {
   return (
-    <div className='relative xl:pt-[115px] lg:pb-[66px] lg:pt-24 md:py-16 sm:py-10 pt-12 pb-6' id='roadmap'>
+    <div className='relative xl:pt-[115px] lg:pb-[66px] lg:pt-24 md:py-16 sm:py-14 pt-12 pb-6' id='roadmap'>
       <img className='absolute top-[117px] lg:block hidden right-0 pointer-events-none' src="/assets/images/png/about-us-right-ellipse.png" alt="right-ellipse" />
       <img className='absolute left-0 top-[-20%] 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full pointer-events-none' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
       <img className='absolute left-0 bottom-0 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full pointer-events-none' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
