@@ -45,7 +45,7 @@ const NewsSignUp = () => {
         <div className='xl:pt-[132px] lg:pt-24 md:pt-20 pt-12 xl:pb-[143px] lg:pb-32 md:pb-24 sm:pt-16 pb-12 max-w-[1920px] mx-auto'>
             <div className='container'>
                 <div data-aos="fade-right" className='relative max-w-max flex items-center text-center mx-auto'>
-                    <Heading text={'Sign up for the latest news'} ClassStyle={'text-center'} />
+                    <h2 className='main-heading font-normal md:text-6xl text-4xl xl:text-custom-6xl xl:leading-custom-8xl text-black'>Sign up for the latest news</h2>
                 </div>
                 <Description data-aos="fade-left" text={'Convallis et vel cras odio mi, volutpat sed ultrices. Sed amet sed aenean egestas ut sit.'} ClassStyle={'max-w-[659px] text-center mx-auto pb-[33px]'} />
                 <div data-aos="zoom-in" className='text-center mx-auto bg-gradient-to-tr from-pink to-purple p-[0.5px] max-w-[521px] rounded-[10px] w-full'>
