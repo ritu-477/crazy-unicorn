@@ -7,7 +7,7 @@ const Heading = ({ text, ClassStyle}) => {
             <img
                 src="/assets/images/png/heading-image.png"
                 alt="unicorn"
-                className="absolute sm:h-[84px] sm:w-[118px] w-20 h-12 lg:-right-12 sm:-top-[58px] -right-2 -top-10 pointer-events-none"
+                className="absolute sm:h-[84px] sm:w-[118px] w-20 h-12 lg:-right-12 sm:-top-[66px] lg:-top-[58px] -right-2 -top-10 pointer-events-none"
             />
         </h2>
   )

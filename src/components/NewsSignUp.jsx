@@ -42,7 +42,7 @@ const NewsSignUp = () => {
         );
     };
     return (
-        <div className='xl:pt-[132px] lg:pt-24 md:pt-20 pt-12 xl:pb-[143px] lg:pb-32 md:pb-24 sm:pt-16 pb-12 max-w-[1920px] mx-auto'>
+        <div className='xl:pt-[132px] lg:pt-24 md:pt-12 pt-12 xl:pb-[143px] lg:pb-32 md:pb-24 sm:pt-16 pb-12 max-w-[1920px] mx-auto'>
             <div className='container'>
                 <div data-aos="fade-right" className='relative max-w-max flex items-center text-center mx-auto'>
                     <h2 className='main-heading font-normal md:text-6xl text-4xl xl:text-custom-6xl xl:leading-custom-8xl text-black'>Sign up for the latest news</h2>
