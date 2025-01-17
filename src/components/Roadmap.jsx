@@ -5,8 +5,8 @@ const Roadmap = () => {
   return (
     <div className='relative xl:pt-[90px] lg:pb-[66px] lg:pt-24 md:py-16 sm:py-14 pt-12 pb-6 max-w-[1920px] mx-auto' id='roadmap'>
       <img className='absolute top-[117px] lg:block hidden right-0 pointer-events-none star-animation' src="/assets/images/png/about-us-right-ellipse.png" alt="right-ellipse" />
-      <img className='absolute left-0 top-[-20%] 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full pointer-events-none star-animation' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
-      <img className='absolute left-0 bottom-0 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full pointer-events-none star-animation' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
+      <img className='absolute left-0 top-[-20%] 2xl:max-w-[370px] xl:max-w-[200px] lg:max-w-[150px] max-w-[100px] w-full pointer-events-none star-animation lg:block hidden' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
+      <img className='absolute left-0 bottom-0 2xl:max-w-[370px] xl:max-w-[200px] lg:max-w-[150px] max-w-[100px] w-full pointer-events-none star-animation lg:block hidden' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
       <div className='container'>
         <div className='relative max-w-max flex items-center text-center mx-auto'>
           <Heading text={'RoadMap'} ClassStyle={'text-center xl:pb-[117px] lg:pb-20 md:pb-12 pb-10'} />
