@@ -4,7 +4,7 @@ import { TEAM_DATA_LIST } from '../utils/helper'
 
 const Team = () => {
   return (
-    <div data-aos="zoom-out" className='xl:pt-[75px] pb-[73.5px] pt-10 relative' id='team'>
+    <div data-aos="zoom-out" className='xl:pt-[75px] pb-[73.5px] pt-10 relative max-w-[1920px] mx-auto' id='team'>
       <img className='absolute top-[-160px] lg:block hidden right-0 pointer-events-none star-animation lg:max-w-[150px] w-full' src="/assets/images/png/about-us-right-ellipse.png" alt="right-ellipse" />
       <div className='max-w-[1360px] mx-auto container'>
         <div className='relative max-w-max flex justify-center items-center mx-auto'>
