@@ -9,7 +9,7 @@ const Roadmap = () => {
       <img className='absolute left-0 bottom-0 2xl:max-w-[370px] xl:max-w-[200px] max-w-[100px] w-full pointer-events-none star-animation' src="/assets/images/png/our-story-left-ellipse.png" alt="left-ellipse" />
       <div className='container'>
         <div className='relative max-w-max flex items-center text-center mx-auto'>
-          <Heading text={'RoadMap'} ClassStyle={'text-center xl:pb-[117px] lg:pb-80 md:pb-12 pb-10'} />
+          <Heading text={'RoadMap'} ClassStyle={'text-center xl:pb-[117px] lg:pb-20 md:pb-12 pb-10'} />
    </div>
         <div className='relative flex'>
           <img src="/assets/images/png/roadmap-image.png" alt="roadmap" className='2xl:max-w-[755px] xl:max-w-[570px] lg:max-w-[450px] md:max-w-[320px] max-w-[290px] w-full mx-auto sm:block hidden' />
