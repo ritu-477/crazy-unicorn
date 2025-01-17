@@ -43,7 +43,7 @@ const Roadmap = () => {
               <p className='font-normal lg:text-custom-5xl lg:leading-custom-7xl md:text-3xl sm:text-2xl text-base md:pb-4 pb-2 text-black'>Phase 3</p>
               <p className='font-comic-neue font-normal lg:text-custom-xl md:text-sm text-xs sm:leading-5 md:leading-6 lg:leading-custom-4xl sm:max-w-[374px]'>Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu.</p>
             </div>
-            <div data-aos="fade-left" className='sm:max-w-[451px] 2xl:w-1/2 xl:w-[31%] lg:w-[50%] md:w-[37%] sm:w-[36%] w-full sm:absolute sm:right-0 xl:top-[45%] sm:top-[47%] top-[55%] lg:pl-24 xl:pl-12 max-sm:pl-12 max-sm:pb-6 timeline-content'>
+            <div data-aos="fade-left" className='sm:max-w-[451px] 2xl:w-1/2 xl:w-[31%] lg:w-[50%] md:w-[37%] sm:w-[36%] w-full sm:absolute sm:right-0 xl:top-[45%] sm:top-[47%] top-[55%] lg:pl-24 xl:pl-4 2xl:pl-14 max-sm:pl-12 max-sm:pb-6 timeline-content'>
               <p className='font-normal lg:text-custom-5xl lg:leading-custom-7xl md:text-3xl sm:text-2xl text-base md:text-black pb-2'>Phase 4</p>
               <p className='font-comic-neue font-normal lg:text-custom-xl md:text-sm text-xs sm:leading-5 md:leading-6 lg:leading-custom-4xl sm:max-w-[420px]'>Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu.</p>
             </div>
