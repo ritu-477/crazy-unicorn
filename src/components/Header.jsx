@@ -44,7 +44,7 @@ const Header = () => {
                   className="font-normal text-border text-custom-2xl leading-custom-2xl text-black relative group text-border"
                   href={obj.link}
                 >
-                  {obj.data}
+                  {obj.title}
                   <img
                     src="/assets/images/svg/underline-nav.svg"
                     alt="underline"
@@ -81,7 +81,7 @@ const Header = () => {
                     className="font-normal text-border text-custom-2xl leading-custom-2xl text-black relative group text-border"
                     href={obj.link}
                   >
-                    {obj.data}
+                    {obj.title}
                     <img
                       src="/assets/images/svg/underline-nav.svg"
                       alt="underline"
@@ -92,6 +92,7 @@ const Header = () => {
                 <div className="gap-5 items-center flex">
                   {NAV_SOCIAL_LIST.map((obj, index) => (
                     <a
+                      onClick={toggleMenu}
                       key={index}
                       className="hover:transition-all hover:duration-700 hover:scale-110 text-custom-2xl leading-custom-2x border border-black size-[42.08px] rounded-full flex justify-center items-center"
                       href={obj.link}

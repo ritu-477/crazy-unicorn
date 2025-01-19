@@ -13,7 +13,7 @@ const Hero = () => {
             <img
                 src="/assets/images/webp/hero-right-star.webp"
                 alt="starImg"
-                className="absolute right-0 w-[200px] sm:w-[250px] md:w-[290px] xl:w-[390px] bottom-0 z-30 star-animation max-sm:hidden pointer-events-none"
+                className="absolute right-0 w-[200px] sm:w-[250px] md:w-[290px] xl:w-[450px] bottom-0 z-30 star-animation max-sm:hidden pointer-events-none"
             />
             <div className="relative pt-[165px] max-xlg:pt-[120px] max-lg:pt-20 max-md:pt-10">
                 <img
@@ -21,7 +21,7 @@ const Hero = () => {
                     alt="cloud"
                     className="w-full absolute h-[150px] sm:h-[200px] md:h-[333px] bottom-0 pointer-events-none"
                 />
-                <div className="flex items-center justify-center flex-col relative">
+                <div className="flex items-center justify-center relative">
                     <img
                         src="/assets/images/png/cloud-img.png"
                         alt="cloud"
@@ -33,9 +33,11 @@ const Hero = () => {
                         className="w-full max-w-[1264px] mx-auto relative pointer-events-none"
                     />
                     <img data-aos="zoom-in"
+                        width={600.92}
+                        height={288.67}
                         src="/assets/images/png/hero-unicorn-img.png"
                         alt="horse-img"
-                        className="absolute w-full max-w-[600px] max-md:max-w-[400px] max-lg:max-w-[450px] pointer-events-none max-sm:h-[101px] xl:h-[258px] max-xlg:h-[230px] max-lg:h-[200px] max-md:h-[170px] max-sm:max-w-[200px] z-30 h-[288px] bottom-[23%] max-md:bottom-[16%]
+                        className="absolute w-full xl:!h-[288.67px] max-w-[600.92px] max-md:max-w-[400px] max-lg:max-w-[450px] pointer-events-none max-sm:h-[101px] xl:h-[258px] max-xlg:h-[230px] max-lg:h-[200px] max-md:h-[170px] max-sm:max-w-[200px] z-30 bottom-[23%] max-md:bottom-[16%]
 "
                     />
                     <img

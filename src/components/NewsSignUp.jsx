@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Heading from '../common/Heading'
 import Description from '../common/Description'
 import Swal from 'sweetalert2'
 import emailjs from '@emailjs/browser';
@@ -47,8 +46,8 @@ const NewsSignUp = () => {
                 <div data-aos="fade-right" className='relative max-w-max flex items-center text-center mx-auto'>
                     <h2 className='main-heading font-normal md:text-6xl text-4xl xl:text-custom-6xl xl:leading-custom-8xl text-black'>Sign up for the latest news</h2>
                 </div>
-                <Description data-aos="fade-left" text={'Convallis et vel cras odio mi, volutpat sed ultrices. Sed amet sed aenean egestas ut sit.'} ClassStyle={'max-w-[659px] text-center mx-auto pb-[33px]'} />
-                <div data-aos="zoom-in" className='text-center mx-auto bg-gradient-to-tr from-pink to-purple p-[0.5px] max-w-[521px] rounded-[10px] w-full'>
+                <Description data-aos="fade-left" text={'Convallis et vel cras odio mi, volutpat sed ultrices. Sed amet sed aenean egestas ut sit.'} classStyle={'max-w-[659px] text-center mx-auto pb-[33px]'} />
+                <div data-aos="zoom-in" className='text-center mx-auto bg-gradient-to-tr from-pink to-purple p-[1px] max-w-[521px] rounded-[10px] w-full'>
                     <form onSubmit={handleSubmit} className='flex bg-white md:p-[8px_9.33px_8px_19px] p-2 justify-between max-w-[521px] rounded-[10px] w-full'>
                         <div className='flex items-center w-full pr-2'>
                             <img src="/assets/images/svg/email-box.svg" alt="email-box" />

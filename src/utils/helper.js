@@ -1,12 +1,12 @@
 import { Discord, Instagram, Twitter } from "./icons";
 
 export const NAV_DATA_LIST = [
-    { data: 'Home', link: '#home' },
-    { data: 'Story', link: '#story' },
-    { data: 'About', link: '#about' },
-    { data: 'Roadmap', link: '#roadmap' },
-    { data: 'Team', link: '#team' },
-    { data: 'FAQs', link: '#faq' },
+    { title: 'Home', link: '#home' },
+    { title: 'Story', link: '#story' },
+    { title: 'About', link: '#about' },
+    { title: 'Roadmap', link: '#roadmap' },
+    { title: 'Team', link: '#team' },
+    { title: 'FAQs', link: '#faq' },
 ];
 
 export const NAV_SOCIAL_LIST = [
